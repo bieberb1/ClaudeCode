@@ -1,0 +1,9 @@
+pandas>=2.0
+numpy>=1.24
+pyreadstat>=1.2        # SAS .sas7bdat files
+lifelines>=0.28        # Kaplan-Meier, Cox PH
+matplotlib>=3.7
+seaborn>=0.12
+openpyxl>=3.1          # Excel output
+scipy>=1.11
+pytest>=7.4

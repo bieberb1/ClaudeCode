@@ -1,0 +1,23 @@
+# todo.txt — Session task list
+#
+# Claude Code reads this file to stay on track.
+# Create a fresh version at the start of each session.
+# Delete completed items as you go.
+#
+# HOW TO USE:
+#   Tell Claude Code: "Read todo.txt and work through the tasks in order.
+#   Check off each task before moving to the next."
+#
+# ─────────────────────────────────────────────────────
+
+## Session: [DATE]
+## Goal: [one-sentence description of what this session will accomplish]
+
+## Tasks
+[ ] 1. [First task]
+[ ] 2. [Second task]
+[ ] 3. [Third task]
+
+## Notes / constraints for this session
+- [Any data issues to be aware of]
+- [Any tasks that are out of scope today]

@@ -59,7 +59,7 @@ pandas, pyreadstat, numpy, scipy, lifelines, matplotlib, seaborn, openpyxl, pyte
 - Run `R CMD check` for package-structured projects
 - Do not suppress warnings with `suppressWarnings()` without explaining why in a comment
 
-### SAS code review rules
+### Code review rules SAS
 - Check the SAS log after every run — resolve all ERRORs and WARNINGs before considering a task complete
 - Treat NOTEs about uninitialized variables, repeats of by, could not be performed, missing values, or implicit conversions as issues to investigate
 - Do not use `options nosource;` or `options nonotes;` to hide log output without explaining why in a comment

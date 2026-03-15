@@ -13,6 +13,13 @@
 ## Session: [DATE]
 ## Goal: [one-sentence description of what this session will accomplish]
 
+## Picking up from: [todo_2024-01-15_qa-pipeline.txt]
+## Today's goal: [one-sentence description of what this session will accomplish]
+
+## Context (copy forward from last session if relevant)
+- [QA passed on encounters_2022.sas7bdat — 3 issues flagged, all resolved]
+- [enrollment table still has known gap in Q1 2022 for facility X — exclude]
+
 ## Tasks
 [ ] 1. [First task]
 [ ] 2. [Second task]
@@ -21,3 +28,7 @@
 ## Notes / constraints for this session
 - [Any data issues to be aware of]
 - [Any tasks that are out of scope today]
+
+
+## Out of scope today
+- [Survival analysis (next session)]

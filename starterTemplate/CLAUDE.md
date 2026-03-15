@@ -46,11 +46,25 @@ pandas, pyreadstat, numpy, scipy, lifelines, matplotlib, seaborn, openpyxl, pyte
 - Never write about sensitivity analyses unless they appear in reports/
 - Never use the word "significant" without specifying  "statistically" or "clinically" — and only if the output file supports it
   
-### Code review rules
+### Code review rules - Python
 - Run `ruff check src/` and `pytest tests/ -v` after every change to src/
 - Fix all ruff errors before considering a task complete
 - If a test fails, stop and report — do not skip or modify the test to pass
 - Do not suppress warnings with `# noqa` without explaining why in a comment
+
+### Code review rules R
+- Run `lintr::lint("script.R")` after every change
+- Fix all lintr warnings before considering a task complete
+- If using testthat, run `testthat::test_dir("tests/")` after changes
+- Run `R CMD check` for package-structured projects
+- Do not suppress warnings with `suppressWarnings()` without explaining why in a comment
+
+### SAS code review rules
+- Check the SAS log after every run — resolve all ERRORs and WARNINGs before considering a task complete
+- Treat NOTEs about uninitialized variables, repeats of by, could not be performed, missing values, or implicit conversions as issues to investigate
+- Do not use `options nosource;` or `options nonotes;` to hide log output without explaining why in a comment
+- Verify row counts before and after merges/joins — log unexpected changes
+- Confirm that PROC SORT NODUPKEY removals are intentional and documented
 ---
 
 ## Project-Level Context
